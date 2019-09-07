@@ -1,11 +1,25 @@
 {
-  "name": "protractor",
+  "name": "protractor-cucumber",
   "version": "1.0.0",
   "description": "Tests developed in protractor",
   "main": "conf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "protractor js/conf.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
   },
   "author": "Dilip Agheda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.4.0",
+    "@types/node": "^12.7.4",
+    "jasmine": "^3.4.0",
+    "protractor": "^5.4.2",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.6",
+    "ts-node": "^8.3.0"
+  }
 }
