@@ -1,0 +1,11 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "Tests developed in protractor",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dilip Agheda",
+  "license": "ISC"
+}
