@@ -6,7 +6,8 @@
       "inlineSourceMap": true,
       "declaration": false,
       "noImplicitAny": false,
-      "outDir": "js"
+      "outDir": "js",
+      "esModuleInterop": true,
     },
     "exclude": [
       "node_modules"
